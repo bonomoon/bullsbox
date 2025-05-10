@@ -21,12 +21,13 @@ Java 기반 간단한 FTP 소켓 프로그래밍부터 시작하여 점진적으
 ### Additional Constaints
 * Test converage (ex. Jacoco)
 * Code quality (ex. SonarQube)
+<br/><br/>
 
 # MVP (Minimum Viable Product)
 Simple FTP Server/Client Program
 
 ## Requirements
-* Funtional requirements
+* **Funtional requirements**
   * 기본 FTP 명령어 지원(ex. USER, PASS, LIST, STOR, RETR, DELE...)
   * 요청에 대한 응답 코드 및 메시지 전송
   * 단일 사용자 인증 시스템
@@ -37,7 +38,7 @@ Simple FTP Server/Client Program
   * FTP Active/Passive Connection Mode
   * FTP Client 구현
     
-* Non-funtional requirements
+* **Non-funtional requirements**
   * Intuitive CLI Env
   * Isolated file system management for security
   * Independence of Control and Data Flows(Only for FTP)
@@ -45,11 +46,12 @@ Simple FTP Server/Client Program
     * By using two connections, the client can still send control commands (e.g. pause, resume, change directory) over the command channel even while a large file is being transferred on the data channel.
   * Error Handling
 
-## 생각해볼 점
+## **생각해볼 점**
 * Java IO vs NIO
 * 사용자 인증
 * 똑같은 파일을 계속 요청한다면?
 * 업로드/다운로드한 파일과 원본과 동일한가?
+<br/><br/>
 
 # Bullsbox v1
 ## Requirements
@@ -72,6 +74,7 @@ Simple FTP Server/Client Program
 * Rate Limiter
 * Load Balancer
 * file metadata
+<br/><br/>
 
 # Bullsbox v2
 * Funtional requirements
@@ -101,6 +104,7 @@ Simple FTP Server/Client Program
 * Thread Pool (+ JVM Platform Thread)
 * Thread Safety
 * Resume upload/download
+<br/><br/>
 
 # Bullsbox v2 이후 아이디어
 * 파일 복제 및 중복 제거
