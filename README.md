@@ -1,7 +1,7 @@
 # bullsbox
 > Bull-strong and lightning-fast cloud file storage
 
-Java 기반 간단한 FTP 소켓 프로그래밍부터 시작하여 점진적으로 확장 가능한 구조를 갖춘 엔터프라이즈급 클라우드 스토리지 서비스로 발전시키는 프로젝트
+Bullsbox is a project that starts with simple socket programming and gradually evolves into an enterprise-grade cloud storage service built on a scalable, extensible architecture.
 
 ### Lesson Learned
 * Network programing(TCP/IP)
@@ -11,7 +11,7 @@ Java 기반 간단한 FTP 소켓 프로그래밍부터 시작하여 점진적으
 * Fault-tolarent, reliable system
 
 ### Constraints
-* Java 17 <=
+* No language limits
 * Protocol Standards (ex. FTP - [RFC Docs](http://proftpd.org/docs/rfc.html))
 * Less external library / frameworks (Only Java API as possible)
 * Step by step development
